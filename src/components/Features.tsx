@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
-import TextReveal from "@/components/ui/text-reveal";
+import { Carousel, Card } from "components/ui/apple-cards-carousel";
+import TextReveal from "components/ui/text-reveal";
 
 export function Features() {
     const cards = data.map((card, index) => (

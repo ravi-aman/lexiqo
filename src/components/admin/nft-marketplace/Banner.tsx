@@ -1,4 +1,4 @@
-import nft1 from '@/public/img/nfts/NftBanner1.png';
+import nft1 from '/public/img/nfts/NftBanner1.png';
 
 const Banner1 = () => {
   return (

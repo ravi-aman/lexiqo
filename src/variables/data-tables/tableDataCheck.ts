@@ -5,85 +5,65 @@ type RowObj = {
   date: string;
   info: boolean;
 };
-
 const tableDataCheck: RowObj[] = [
   {
-    name: ['Horizon UI PRO', true],
-    quantity: 2458,
-    progress: '17.5%',
-    date: '12 Jan 2021',
+    name: ['Total Earnings', true],
+    quantity: 12500, // Example earnings in currency
+    progress: '100%', // Fully earned
+    date: 'Updated Today',
     info: false,
   },
   {
-    name: ['Horizon UI Free', true],
-    quantity: 1485,
-    progress: '10.8%',
-    date: '21 Feb 2021',
+    name: ['Pending Withdrawals', true],
+    quantity: 3200, // Amount awaiting transfer
+    progress: 'Awaiting Transfer',
+    date: 'Last Update: 2 Days Ago',
     info: true,
   },
   {
-    name: ['Weekly Update', true],
-    quantity: 1024,
-    progress: '21.3%',
-    date: '13 Mar 2021',
+    name: ['Active Cases', true],
+    quantity: 5, // Number of ongoing cases
+    progress: 'In Progress',
+    date: 'Updated 3 Hours Ago',
     info: true,
   },
   {
-    name: ['Venus 3D Asset', true],
-    quantity: 858,
-    progress: '31.5%',
-    date: '24 Jan 2021',
+    name: ['New Queries Available', true],
+    quantity: 12, // Available new queries
+    progress: 'New',
+    date: 'Updated 1 Hour Ago',
     info: true,
   },
   {
-    name: ['Marketplace', true],
-    quantity: 258,
-    progress: '12.2%',
-    date: '24 Oct 2022',
+    name: ['Bidding Success Rate (%)', true],
+    quantity: 65, // Percentage of successful bids
+    progress: '65%',
+    date: 'This Month',
     info: false,
   },
   {
-    name: ['Horizon UI Free', true],
-    quantity: 1485,
-    progress: '10.8%',
-    date: '21 Feb 2021',
+    name: ['Pending Bids', true],
+    quantity: 8, // Number of pending bids
+    progress: 'Awaiting Response',
+    date: 'Updated Yesterday',
     info: true,
   },
   {
-    name: ['Weekly Update', true],
-    quantity: 1024,
-    progress: '21.3%',
-    date: '13 Mar 2021',
+    name: ['Upcoming Case Deadlines', true],
+    quantity: 3, // Number of upcoming deadlines
+    progress: 'Critical',
+    date: 'Next Deadline: 22 Feb 2025',
     info: true,
   },
   {
-    name: ['Venus 3D Asset', true],
-    quantity: 858,
-    progress: '31.5%',
-    date: '24 Jan 2021',
-    info: true,
-  },
-  {
-    name: ['Horizon UI Free', true],
-    quantity: 1485,
-    progress: '10.8%',
-    date: '21 Feb 2021',
-    info: true,
-  },
-  {
-    name: ['Weekly Update', true],
-    quantity: 1024,
-    progress: '21.3%',
-    date: '13 Mar 2021',
-    info: true,
-  },
-  {
-    name: ['Venus 3D Asset', true],
-    quantity: 858,
-    progress: '31.5%',
-    date: '24 Jan 2021',
+    name: ['Reviews & Ratings', true],
+    quantity: 4.7, // Average rating
+    progress: 'Excellent',
+    date: 'Latest Review: 1 Day Ago',
     info: true,
   },
 ];
+
+
 
 export default tableDataCheck;

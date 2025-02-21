@@ -2,16 +2,13 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../globals.css"; 
 
-// Vercel Analytics
-import { Analytics } from "@vercel/analytics/react";
-// Vercel Speed Insights
-import { SpeedInsights } from "@vercel/speed-insights/next";
-// Clerk authentication
+
 import {
   ClerkProvider,
 } from "@clerk/nextjs";
-import Header2 from "@/components/Header2";
-import Footer from "@/components/Footer";
+// import Header2 from "";
+import Footer from "components/Footer";
+import Header2 from "components/Header2";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -47,8 +44,6 @@ export default function RootLayout({
         </head>
         <body className={inter.className}>
           <div className="flex min-h-screen flex-col bg-white">
-            <Analytics />
-            <SpeedInsights /> 
             <Header2 />
             <main>{children}</main>
             <Footer />

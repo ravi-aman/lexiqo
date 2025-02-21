@@ -1,7 +1,7 @@
 import React from 'react';
-import Dropdown from '@/components/dropdown';
+import Dropdown from 'components/dropdown';
 import { FiAlignJustify } from 'react-icons/fi';
-import NavLink from '@/components/link/NavLink';
+import NavLink from 'components/link/NavLink';
 import navbarimage from '/public/img/layout/Navbar.png';
 import { BsArrowBarUp } from 'react-icons/bs';
 import { FiSearch } from 'react-icons/fi';

@@ -2,10 +2,10 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import { ImagesSlider } from "@/components/ui/images-slider";
-import { Label } from "@/components/ui/label";
-import { Input } from "@/components/ui/input";
-import { cn } from "@/lib/utils";
+import { ImagesSlider } from "components/ui/images-slider";
+import { Label } from "components/ui/label";
+import { Input } from "components/ui/input";
+import { cn } from "lib/utils";
 // import { validateForm } from "@/utils/validation";
 
 export const validateForm = (formData: { name: string; email: string; phone: string }) => {

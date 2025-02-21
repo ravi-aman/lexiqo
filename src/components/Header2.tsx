@@ -10,8 +10,8 @@ import {
     SheetContent,
     SheetHeader,
     SheetTitle,
-} from "@/components/ui/sheet";
-import QuoteForm from "@/components/QuoteForm";
+} from "components/ui/sheet";
+import QuoteForm from "components/QuoteForm";
 import { FaMapMarkerAlt, FaEnvelope, FaClock, FaPhone } from "react-icons/fa";
 import { FaFacebookF, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { FaSearch, FaUserCircle } from "react-icons/fa";

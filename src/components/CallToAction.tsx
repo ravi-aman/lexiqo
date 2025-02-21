@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { LinkPreview } from "@/components/ui/link-preview";
+import { LinkPreview } from "components/ui/link-preview";
 
 export function CallToAction() {
     return (

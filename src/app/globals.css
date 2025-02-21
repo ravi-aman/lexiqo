@@ -75,35 +75,45 @@
     @apply font-heading;
   }
 
-
   /* Custom scrollbar for the sidebar */
   .sidebar {
-    scrollbar-width: thin;
-    /* Firefox */
-    scrollbar-color: #4a5568 #2d3748;
-    /* Thumb Color and Track Color */
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #4a5568 #2d3748; /* Thumb Color and Track Color */
   }
 
   .sidebar::-webkit-scrollbar {
-    width: 8px;
-    /* Width of the scrollbar */
+    width: 8px; /* Width of the scrollbar */
   }
 
   .sidebar::-webkit-scrollbar-track {
-    background: #2d3748;
-    /* Track color */
+    background: #2d3748; /* Track color */
   }
 
   .sidebar::-webkit-scrollbar-thumb {
-    background: #4a5568;
-    /* Thumb color */
-    border-radius: 10px;
-    /* Round the corners */
+    background: #4a5568; /* Thumb color */
+    border-radius: 10px; /* Round the corners */
   }
 
   .sidebar::-webkit-scrollbar-thumb:hover {
-    background: #718096;
-    /* Thumb color on hover */
+    background: #718096; /* Thumb color on hover */
+  }
+}
+@layer components {
+  .font-heading {
+    font-family: 'Poppins', sans-serif; /* Change this to your preferred font */
+  }
+}
+
+@layer utilities {
+  .bg-background {
+    background-color: var(--background);
   }
 
+  .text-foreground {
+    color: var(--foreground);
+  }
+
+  .border-border {
+    border-color: var(--border);
+  }
 }

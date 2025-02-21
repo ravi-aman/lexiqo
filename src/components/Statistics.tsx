@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import NumberTicker from "@/components/ui/number-ticker"; // Ensure the correct path to your NumberTicker component
+import NumberTicker from "components/ui/number-ticker"; // Ensure the correct path to your NumberTicker component
 import { FaHome, FaUsers, FaListAlt } from "react-icons/fa"; // Updated to FaUsers for multiple humans
 
 const staticsData = [

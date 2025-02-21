@@ -1,7 +1,7 @@
 import React from 'react';
-import CardMenu from '@/components/card/CardMenu';
-import Checkbox from '@/components/checkbox';
-import Card from '@/components/card';
+import CardMenu from 'components/card/CardMenu';
+import Checkbox from 'components/checkbox';
+import Card from 'components/card';
 
 import {
   createColumnHelper,
@@ -14,8 +14,8 @@ import {
 
 type RowObj = {
   name: [string, boolean];
-  progress: string;
-  quantity: number;
+  amount: string;
+  status: string;
   date: string;
 };
 
@@ -27,7 +27,7 @@ function CheckTable(props: { tableData: any }) {
     columnHelper.accessor('name', {
       id: 'name',
       header: () => (
-        <p className="text-sm font-bold text-gray-600 dark:text-white">NAME</p>
+        <p className="text-sm font-bold text-gray-600 dark:text-white">CASE</p>
       ),
       cell: (info: any) => (
         <div className="flex items-center">
@@ -42,11 +42,11 @@ function CheckTable(props: { tableData: any }) {
         </div>
       ),
     }),
-    columnHelper.accessor('progress', {
-      id: 'progress',
+    columnHelper.accessor('amount', {
+      id: 'amount',
       header: () => (
         <p className="text-sm font-bold text-gray-600 dark:text-white">
-          PROGRESS
+          AMOUNT
         </p>
       ),
       cell: (info) => (
@@ -55,11 +55,11 @@ function CheckTable(props: { tableData: any }) {
         </p>
       ),
     }),
-    columnHelper.accessor('quantity', {
-      id: 'quantity',
+    columnHelper.accessor('status', {
+      id: 'status',
       header: () => (
         <p className="text-sm font-bold text-gray-600 dark:text-white">
-          QUANTITY
+          STATUS
         </p>
       ),
       cell: (info) => (
@@ -96,7 +96,7 @@ function CheckTable(props: { tableData: any }) {
     <Card extra={'w-full h-full sm:overflow-auto px-6'}>
       <header className="relative flex items-center justify-between pt-4">
         <div className="text-xl font-bold text-navy-700 dark:text-white">
-          Check Table
+          Case Summary
         </div>
 
         <CardMenu />

@@ -5,10 +5,11 @@ const Chart = dynamic(() => import('react-apexcharts'), {
   ssr: false,
 });
 
-const LineAreaChart = (props:any) => {
+const LineAreaChart = (props) => {
   const { chartData, chartOptions } = props;
 
   return (
+    // @ts-expect-error
     <Chart
       options={chartOptions}
       type="area"
