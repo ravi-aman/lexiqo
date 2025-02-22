@@ -1,7 +1,5 @@
 import React from 'react';
 
-// Admin Imports
-
 // Icon Imports
 import {
   MdHome,
@@ -16,21 +14,20 @@ const routes = [
     name: 'Main Dashboard',
     layout: '/admin',
     path: 'default',
-    icon: <MdHome className="h-6 w-6" />,
+    icon: <MdHome className="h-6 w-6" />, 
   },
   {
-    name: 'NFT Marketplace',
+    name: 'Bidding Section',
     layout: '/admin',
-    path: 'nft-marketplace',
+    path: 'bidding',
     icon: <MdOutlineShoppingCart className="h-6 w-6" />,
-
     secondary: true,
   },
   {
-    name: 'Data Tables',
+    name: 'My Clients',
     layout: '/admin',
-    icon: <MdBarChart className="h-6 w-6" />,
     path: 'data-tables',
+    icon: <MdBarChart className="h-6 w-6" />,
   },
   {
     name: 'Profile',
@@ -44,11 +41,33 @@ const routes = [
     path: 'sign-in',
     icon: <MdLock className="h-6 w-6" />,
   },
+];
+
+const clientRoutes = [
   {
-    name: 'RTL Admin',
-    layout: '/rtl',
-    path: 'rtl-default',
-    icon: <MdHome className="h-6 w-6" />,
+    name: 'query',
+    layout: '/client',
+    path: 'default',
+    icon: <MdHome className="h-6 w-6" />, 
+  },
+  {
+    name: 'reports',
+    layout: '/admin',
+    path: 'bidding',
+    icon: <MdOutlineShoppingCart className="h-6 w-6" />,
+    secondary: true,
+  },
+  {
+    name: 'Profile',
+    layout: '/admin',
+    path: 'profile',
+    icon: <MdPerson className="h-6 w-6" />,
+  },
+  {
+    name: 'Sign In',
+    layout: '/auth',
+    path: 'sign-in',
+    icon: <MdLock className="h-6 w-6" />,
   },
 ];
 export default routes;

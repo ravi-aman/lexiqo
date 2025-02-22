@@ -7,28 +7,28 @@ type RowObj = {
 
 const tableDataColumns: RowObj[] = [
   {
-    name: 'Horizon UI PRO',
-    quantity: 2458,
-    progress: '17.5%',
-    date: '12 Jan 2021',
+    name: 'Legal Case Manager',
+    quantity: 2780,
+    progress: '19.2%',
+    date: '05 May 2022',
   },
   {
-    name: 'Horizon UI Free',
-    quantity: 1485,
-    progress: '10.8%',
-    date: '21 Feb 2021',
+    name: 'Lawyer Dashboard',
+    quantity: 1925,
+    progress: '12.7%',
+    date: '18 Jun 2022',
   },
   {
-    name: 'Weekly Update',
-    quantity: 1024,
-    progress: '21.3%',
-    date: '13 Mar 2021',
+    name: 'Client Consultation',
+    quantity: 1298,
+    progress: '23.9%',
+    date: '30 Jul 2022',
   },
   {
-    name: 'Venus 3D Asset',
-    quantity: 858,
-    progress: '31.5%',
-    date: '24 Jan 2021',
+    name: 'Case Tracking System',
+    quantity: 910,
+    progress: '29.4%',
+    date: '12 Aug 2022',
   },
 ];
 

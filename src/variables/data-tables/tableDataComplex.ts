@@ -13,7 +13,7 @@ const tableDataComplex: RowObj[] = [
     date: '12 Jan 2021',
   },
   {
-    name: 'Horizon UI Free',
+    name: 'lexico ',
     progress: 25.5,
     status: 'Disable',
     date: '21 Feb 2021',
@@ -25,7 +25,7 @@ const tableDataComplex: RowObj[] = [
     date: '13 Mar 2021',
   },
   {
-    name: 'Marketplace',
+    name: 'lexico',
     progress: 50.5,
     status: 'Approved',
     date: '24 Oct 2022',
